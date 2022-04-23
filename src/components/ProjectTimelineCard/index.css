@@ -1,1 +1,36 @@
 /* Write your CSS here */
+.project-container {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.project-img {
+  height: 340px;
+}
+.title-card {
+  display: flex;
+  justify-content: space-between;
+}
+.project-head {
+  color: #171f46;
+  font-size: 28px;
+}
+.duration {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #171f46;
+}
+.project-desc {
+  font-size: 18px;
+  font-weight: 500;
+  color: #171f46;
+}
+.project-url {
+  text-decoration: none;
+  font-size: 20px;
+}

@@ -13,8 +13,6 @@ import './index.css'
 const ProjectTimelineCard = props => {
   const {projectDetails} = props
   const {
-    // id,
-    title,
     projectTitle,
     description,
     imageUrl,
@@ -24,9 +22,9 @@ const ProjectTimelineCard = props => {
   return (
     <div className="project-container">
       <img src={imageUrl} alt="project" className="project-img" />
-      <div>
+      <div className="title-card">
         <h1 className="project-head">{projectTitle}</h1>
-        <p>
+        <p className="duration">
           <AiFillCalendar size="20px" />
           {duration}
         </p>

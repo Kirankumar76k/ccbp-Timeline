@@ -18,12 +18,12 @@ const TimelineView = props => {
       <div className="responsive-container">
         <h1 className="heading">
           MY JOURNEY OF <br />
-          CCBP 4.0
+          <span className="ccbp"> CCBP 4.0</span>
         </h1>
 
         <div
           className="chrono-container"
-          style={{width: '500px', height: '950px'}}
+          style={{width: '1210px', height: '950px'}}
         >
           <Chrono mode="VERTICAL_ALTERNATING" items={timelineItemsList}>
             {timelineItemsList.map(eachItem => renderItems(eachItem))}
